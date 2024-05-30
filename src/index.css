@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-poppins: "Poppins", sans-serif;
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    /* ... */
+  }
+
+  .title-1 {
+    font-family: var(--font-poppins);
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--text);
+  }
+
+  .title-2 {
+    font-family: var(--font-poppins);
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--text);
+  }
+
+  .title-3 {
+    font-family: var(--font-poppins);
+    font-size: 26px;
+    line-height: 39px;
+    color: var(--text);
+  }
+
+  .title-headline {
+    font-family: var(--font-poppins);
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    color: var(--text);
+  }
+
+  .title-mobile-headline {
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: var(--text);
+  }
+
+  .text-body {
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text);
+  }
+
+  .text-mobile-body {
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text);
+  }
+
+  .text-footnote {
+    font-family: var(--font-poppins);
+    font-size: 15px;
+    line-height: 22.5px;
+    color: var(--text);
+  }
+
+  .bold{
+    font-weight: 700;
+  }
+}
+
+
+.light{
+ --primary: #66AE84;
+ --secondary: #A3CEC9;
+ --accent: #679FCF;
+ --text: #09100C;
+ --background: #F6FCF8;
+
+ background-color: var(--background);
+}
+
+.dark{
+  --primary: #74FEAD;
+  --secondary: #017AAC;
+  --accent: #CEA953;
+  --text: #F6FCF8;
+  --background: #09100C;
+
+  background-color: var(--background);
+}
