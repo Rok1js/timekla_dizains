@@ -11,8 +11,27 @@ const renderChildren = (
   pathname,
 ) => {
   return (
-    elements.map((element) => (
-      <div className="">
+    elements.map((element) => {
+      if(!element.name) {
+        return (
+          <div className="">
+          <Link to={element.url}>
+            <div
+              className={classNames(
+                'p-[15px] border-[#09100C] relative text-nowrap text-center border-b-[1px] title-mobile-headline flex justify-center items-center',
+                {'bg-accent text-background': pathname === element.url}
+              )}
+              onClick={() => setIsOpen(false)}
+            >
+               <img className='w-[25px]' src={element.icon} alt="" />
+            </div>
+          </Link>
+        </div>
+        );
+      }
+
+      return (
+        <div className="">
         <Link to={element.url}>
           <div
             className={classNames(
@@ -25,7 +44,8 @@ const renderChildren = (
           </div>
         </Link>
       </div>
-    ))
+      );
+    })
   );
 };
 

@@ -3,12 +3,13 @@ import { Link, useLocation } from 'react-router-dom';
 import { Dropdown } from './Dropdown';
 import Sun from '/sun.svg';
 import Moon from '/moon.svg';
+import Home from '/Home.svg';
 import { useEffect, useState } from 'react';
 import useDeviceType from './useDeviceType';
 import classNames from 'classnames';
 
 const AdminNavigationMap = [
-    { name: 'H', url: '/' },
+    { url: '/', icon: Home },
     { name: '1', url: '/sekcija1' },
     { name: '2', url: '/sekcija2' },
     { name: '3', url: '/sekcija3' },
@@ -23,20 +24,39 @@ const renderChildren = (
     pathname,
   ) => {
     return (
-      elements.map((element) => (
+      elements.map((element) => {
+        if(!element.name) {
+            return (
+            <div className="">
+            <Link to={element.url}>
+              <div
+                className={classNames(
+                  'p-[15px] border-[#09100C] relative text-nowrap text-center border-b-[1px] title-mobile-headline flex justify-center items-center',
+                  {'bg-accent text-background': pathname === element.url}
+                )}
+              >
+                <img className='w-[25px]' src={element.icon} alt="" />
+              </div>
+            </Link>
+          </div>
+          );
+        }
+
+        return (
         <div className="">
-          <Link to={element.url}>
-            <div
-              className={classNames(
-                'p-[15px] border-[#09100C] relative text-nowrap text-center border-b-[1px] title-mobile-headline',
-                {'bg-accent text-background': pathname === element.url}
-              )}
-            >
-              {element.name}
-            </div>
-          </Link>
+            <Link to={element.url}>
+                <div
+                className={classNames(
+                    'p-[15px] border-[#09100C] relative text-nowrap text-center border-b-[1px] title-mobile-headline',
+                    {'bg-accent text-background': pathname === element.url}
+                )}
+                >
+                {element.name}
+                </div>
+            </Link>
         </div>
-      ))
+        )
+      })
     );
   };
 
