@@ -61,7 +61,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                         <img 
                         className={classNames(
                             'object-fit',
@@ -70,7 +70,7 @@ export const Home = () => {
                         src={Image} alt="Divi mazi zēni no kāzām"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Bilde no bērnudārza laika</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Bilde no bērnudārza laika</p>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                      <img 
                 className={classNames(
                     'object-fit',
@@ -100,7 +100,7 @@ export const Home = () => {
                 src={Image2} alt="Kolāžas bilde ar diviem zēniem - klasesbiedriem no sākumskolas"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Attēls no sākumskolas laikā izveidotā bloga</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Attēls no sākumskolas laikā izveidotā bloga</p>
                 </div>
                 
             </div>
@@ -123,7 +123,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                          <img 
                 className={classNames(
                     'object-fit',
@@ -131,7 +131,7 @@ export const Home = () => {
                 src={Image3} alt="Sportists - futbolists koncentrējās uz treniņu melnā formā"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Attēls no futbola treniņa</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Attēls no futbola treniņa</p>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                        <img 
                 className={classNames(
                     'object-fit',
@@ -161,7 +161,7 @@ export const Home = () => {
                 src={Image4} alt="Fonā Rīgas valsts 2.ģimnāzijas ieejas durvis ar skolas uzrakstu un karogu, priekšplānā skolēns"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Attēls no Rīgas valsts 2. ģimnāzijas soliņiem</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Attēls no Rīgas valsts 2. ģimnāzijas soliņiem</p>
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                         <img 
                 className={classNames(
                     'transform-5 h-[800px] object-cover max-w-none md:h-[300px] 2xl:h-[500px]',
@@ -191,7 +191,7 @@ export const Home = () => {
                 src={Image5} alt="Stacionārā datora komponentes"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Attēls ar datoru komponentēm</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Attēls ar datoru komponentēm</p>
                 </div>
             </div>
         </div>
@@ -213,7 +213,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                         <img 
                 className={classNames(
                     'object-fit',
@@ -221,7 +221,7 @@ export const Home = () => {
                 src={Image6} alt="Māsa un brālis svētku apģērbā pirmajā septembrī"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Attēls no pirmā septembra</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Attēls no pirmā septembra</p>
                 </div>
             </div>
         </div>
@@ -243,7 +243,7 @@ export const Home = () => {
                 <div>
                     <div className="bg-zinc-500 w-screen h-[100vw] mt-[25px]  overflow-hidden
                     md:w-[300px] md:h-[300px]
-                    2xl:w-[500px] 2xl:h-[500px]">
+                    2xl:w-[360px] 2xl:h-[360px]">
                        <img 
                 className={classNames(
                     'transform-7',
@@ -251,7 +251,7 @@ export const Home = () => {
                 src={Image7} alt="Īsziņa no Latvijas universitātes par iestāšanos Latvijas universitātē"  />
                     
                     </div>
-                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[500px]">Ekrānšaviņš no īsziņas par pieteikšanos Latvijas universitātei</p>
+                    <p className="text-footnote text-center mb-[50px] md:w-[300px] 2xl:w-[360px]">Ekrānšaviņš no īsziņas par pieteikšanos Latvijas universitātei</p>
                 </div>
             </div>
         </div>
