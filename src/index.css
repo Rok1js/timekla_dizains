@@ -75,6 +75,24 @@
   .bold{
     font-weight: 700;
   }
+
+  .scale-up {
+    transform: scale(1.9); /* Adjust the scale value as needed */
+  }
+
+  .transform-3 {
+    transform: translate(0px, -100px);
+  }
+  
+  .transform-5 {
+    transform: translate(-100px, 0px);
+  }
+  .transform-6 {
+    transform: translate(0px, -120px);
+  }
+  .transform-7 {
+    transform: translate(0px, -200px);
+  }
 }
 
 

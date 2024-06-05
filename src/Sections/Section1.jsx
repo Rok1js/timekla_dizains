@@ -1,15 +1,16 @@
+import { sectionData } from "./SectionData";
 import { Sections } from "./Sections";
+import Image from '../assets/bernudarzs.jpg';
 
 export const Section1 = () => {
     
-    const title = "Title 1";
-    const text = [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mi. Donec suscipit tellus ac suscipit bibendum. Sed pellentesque, mi eu iaculis fringilla, est massa consequat justo, eget sodales ante nisi nec nibh. Mauris tristique non ex ac eleifend. Praesent ut eros sed erat consequat ultricies.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mi. Donec suscipit tellus ac suscipit bibendum. Sed pellentesque, mi eu iaculis fringilla, est massa consequat justo, eget sodales ante nisi nec nibh. Mauris tristique non ex ac eleifend. Praesent ut eros sed erat consequat ultricies.",
-    ];
-    const img = "";
-    const imgAlt = "";
+    const title = sectionData['1'].title;
+    const text = sectionData['1'].text;
+    const img = Image;
+    const imgAlt = "Divi mazi zēni no kāzām";
+    const imgClasses = "scale-up";
+    const imgTitle = "Bilde no bērnudārza laika";
     return (
-        <Sections title={title} text={text} img={img} imgAlt={imgAlt}/>
+        <Sections title={title} text={text} img={img} imgAlt={imgAlt} imgClasses={imgClasses} imgTitle={imgTitle}/>
     );
 };

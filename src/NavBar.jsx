@@ -68,7 +68,7 @@ export const NavBar = () => {
 
     if (isMobile) {
     return (
-        <div className='fixed top-0 left-0 right-0 border-b-[2px] border-text'>
+        <div className='fixed top-0 left-0 right-0 border-b-[2px] border-text z-10'>
             <nav className="bg-primary h-[75px] flex ">
                 <div>
                     <Dropdown elements={AdminNavigationMap} pathname={location.pathname} />

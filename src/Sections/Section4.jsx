@@ -1,15 +1,17 @@
 import { Sections } from "./Sections";
+import { sectionData } from "./SectionData";
+import Image from '../assets/2.gimnazija.jpg';
 
 export const Section4 = () => {
     
-    const title = "Title 1";
-    const text = [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mi. Donec suscipit tellus ac suscipit bibendum. Sed pellentesque, mi eu iaculis fringilla, est massa consequat justo, eget sodales ante nisi nec nibh. Mauris tristique non ex ac eleifend. Praesent ut eros sed erat consequat ultricies.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mi. Donec suscipit tellus ac suscipit bibendum. Sed pellentesque, mi eu iaculis fringilla, est massa consequat justo, eget sodales ante nisi nec nibh. Mauris tristique non ex ac eleifend. Praesent ut eros sed erat consequat ultricies.",
-    ];
-    const img = "";
-    const imgAlt = "";
+    const title =  sectionData['4'].title;
+    const text = sectionData['4'].text
+    const img = Image;
+    const imgAlt = "Fonā Rīgas valsts 2.ģimnāzijas ieejas durvis ar skolas uzrakstu un karogu, priekšplānā skolēns";
+    const imgClasses = "";
+    const imgTitle = "Attēls no Rīgas valsts 2. ģimnāzijas soliņiem";
+
     return (
-        <Sections title={title} text={text} img={img} imgAlt={imgAlt}/>
+        <Sections title={title} text={text} img={img} imgAlt={imgAlt} imgClasses={imgClasses} imgTitle={imgTitle}/>
     );
 };
