@@ -19,7 +19,7 @@ export const Sections = ({title , text , img, imgAlt, imgClasses = "" , imgTitle
                 xl:flex-[1_1_0%]"
                 >
                     <div>
-                        <div  className="bg-zinc-500 w-screen h-[100vw] mt-[25px] mb-[50px] overflow-hidden
+                        <div  className="bg-zinc-500 w-screen h-[100vw] mt-[25px] overflow-hidden
                         md:w-[500px] md:h-[500px]
                         xl:m-0 xl:w-[600px]">
                         <img
@@ -30,7 +30,7 @@ export const Sections = ({title , text , img, imgAlt, imgClasses = "" , imgTitle
                         src={img} alt={imgAlt}  />
                         
                         </div>
-                        <p className="text-footnote text-center">{imgTitle}</p>
+                        <p className="text-footnote text-center mb-[50px]">{imgTitle}</p>
                     </div> 
                 </div>
             </div>
